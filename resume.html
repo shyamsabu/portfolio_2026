@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shyam Sabu | Frontend Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --neon-indigo: #6366f1;
+            --neon-cyan: #06b6d4;
+        }
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
+            background-color: #020617;
+        }
+        .mono { font-family: 'JetBrains Mono', monospace; }
+        
+        .grid-bg {
+            background-image: 
+                linear-gradient(to right, rgba(99, 102, 241, 0.03) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(99, 102, 241, 0.03) 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.4);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 10px; }
+    </style>
+</head>
+<body class="text-slate-400 selection:bg-indigo-500/30 selection:text-white grid-bg">
+
+    <div class="fixed top-0 left-1/4 w-96 h-96 bg-indigo-600/10 blur-[120px] rounded-full pointer-events-none"></div>
+    <div class="fixed bottom-0 right-1/4 w-96 h-96 bg-cyan-600/10 blur-[120px] rounded-full pointer-events-none"></div>
+
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 py-6 border-b border-transparent">
+        <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded bg-gradient-to-br from-indigo-500 to-cyan-400 flex items-center justify-center text-white font-bold text-sm">S</div>
+                <span class="text-white font-bold tracking-tighter mono text-sm uppercase">Shyam Sabu</span>
+            </div>
+            <div class="hidden md:flex items-center gap-8 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500">
+                <a href="#experience" class="hover:text-white transition-colors">Experience</a>
+                <a href="#stack" class="hover:text-white transition-colors">Systems</a>
+                <a href="#projects" class="hover:text-white transition-colors">Projects</a>
+                <a href="mailto:shyamsabu5656@gmail.com" class="text-indigo-400 hover:text-indigo-300">Contact_Init</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="relative z-10 pt-32">
+        <section class="max-w-6xl mx-auto px-6 mb-40">
+            <div class="mono text-[10px] text-indigo-400 mb-6 flex items-center gap-2 uppercase tracking-[0.2em]">
+                <span class="w-2 h-2 rounded-full bg-indigo-500 animate-pulse"></span>
+                Node: Kochi_India // Status: Active
+            </div>
+            <h1 class="text-6xl md:text-8xl font-extrabold text-white tracking-tighter leading-none mb-10">
+                FRONTEND<br/>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-300">DEVELOPER.</span>
+            </h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+                <p class="text-lg text-slate-400 leading-relaxed max-w-md">
+                    Results-driven developer with <span class="text-white">4+ years of experience</span>. Specializing in high-load Angular applications, real-time dashboards, and high-converting marketing interfaces.
+                </p>
+                <div class="flex flex-wrap gap-3 md:justify-end">
+                    <div class="glass-panel px-4 py-2 rounded text-[10px] font-bold text-slate-300 uppercase border border-white/5">Angular</div>
+                    <div class="glass-panel px-4 py-2 rounded text-[10px] font-bold text-slate-300 uppercase border border-white/5">TypeScript</div>
+                    <div class="glass-panel px-4 py-2 rounded text-[10px] font-bold text-slate-300 uppercase border border-white/5">Shopify</div>
+                    <div class="glass-panel px-4 py-2 rounded text-[10px] font-bold text-slate-300 uppercase border border-white/5">UI Optimization</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skill Matrix -->
+        <section id="stack" class="max-w-6xl mx-auto px-6 mb-40">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-1">
+                <div class="glass-panel p-8 md:col-span-1 border-white/5">
+                    <h3 class="text-white font-black text-xs uppercase tracking-widest mb-6">Languages</h3>
+                    <ul class="space-y-3 mono text-[11px]">
+                        <li>JavaScript (ES6+)</li>
+                        <li>TypeScript</li>
+                        <li>PHP (Basic)</li>
+                        <li>HTML5 & CSS3</li>
+                    </ul>
+                </div>
+                <div class="glass-panel p-8 md:col-span-1 border-white/5">
+                    <h3 class="text-white font-black text-xs uppercase tracking-widest mb-6">Frameworks</h3>
+                    <ul class="space-y-3 mono text-[11px]">
+                        <li>Angular (Core)</li>
+                        <li>React (Basic)</li>
+                        <li>jQuery</li>
+                        <li>Tailwind / Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="glass-panel p-8 md:col-span-1 border-white/5">
+                    <h3 class="text-white font-black text-xs uppercase tracking-widest mb-6">Platforms</h3>
+                    <ul class="space-y-3 mono text-[11px]">
+                        <li>Shopify (Liquid)</li>
+                        <li>WordPress</li>
+                        <li>Strapi (Headless)</li>
+                        <li>Elementor / Divi</li>
+                    </ul>
+                </div>
+                <div class="glass-panel p-8 md:col-span-1 border-white/5 bg-indigo-500/5">
+                    <h3 class="text-indigo-400 font-black text-xs uppercase tracking-widest mb-6">Design</h3>
+                    <ul class="space-y-3 mono text-[11px]">
+                        <li>Figma</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
+                        <li>UI/UX Patterns</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience Timeline -->
+        <section id="experience" class="max-w-6xl mx-auto px-6 mb-40">
+            <div class="flex items-end justify-between mb-16">
+                <h2 class="text-4xl font-black text-white uppercase tracking-tighter">Experience_Log</h2>
+                <div class="text-[10px] mono text-slate-600 uppercase">Total_Exp: 4.0_Years</div>
+            </div>
+
+            <div class="space-y-12">
+                <div class="relative pl-8 border-l border-white/10 group">
+                    <div class="absolute -left-[5px] top-2 w-2 h-2 bg-indigo-500 rounded-full group-hover:scale-150 transition-transform shadow-[0_0_10px_#6366f1]"></div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-white uppercase italic">TechWyse IT Solutions</h3>
+                            <p class="text-indigo-400 mono text-xs mt-1">Frontend Developer | April 2022 — Present</p>
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
+                        <div class="glass-panel p-6 rounded border-white/5">
+                            <h4 class="text-white text-xs font-bold uppercase mb-3 text-cyan-400">WorkLuge (Angular)</h4>
+                            <p class="text-xs leading-relaxed mb-4">Led UI development for v1 & v2. Built core modules: Task/Subtask management, Gantt charts, and real-time activity logs. Integrated REST APIs for seamless state sync.</p>
+                            <div class="flex gap-2">
+                                <span class="text-[9px] mono px-2 py-0.5 bg-white/5">NG</span>
+                                <span class="text-[9px] mono px-2 py-0.5 bg-white/5">TS</span>
+                                <span class="text-[9px] mono px-2 py-0.5 bg-white/5">REST</span>
+                            </div>
+                        </div>
+                        <div class="glass-panel p-6 rounded border-white/5">
+                            <h4 class="text-white text-xs font-bold uppercase mb-3 text-cyan-400">AdLuge CRM</h4>
+                            <p class="text-xs leading-relaxed mb-4">Maintained Client-side Angular app and PHP-based Agency portal. Developed lead management, customer lifecycle tracking, and analytics dashboards.</p>
+                            <div class="flex gap-2">
+                                <span class="text-[9px] mono px-2 py-0.5 bg-white/5">PHP</span>
+                                <span class="text-[9px] mono px-2 py-0.5 bg-white/5">SQL</span>
+                                <span class="text-[9px] mono px-2 py-0.5 bg-white/5">CHART.JS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative pl-8 border-l border-white/10 group opacity-70 hover:opacity-100 transition-opacity">
+                    <div class="absolute -left-[5px] top-2 w-2 h-2 bg-slate-700 rounded-full group-hover:bg-indigo-500 transition-colors"></div>
+                    <div class="mb-4">
+                        <h3 class="text-xl font-bold text-white uppercase italic">Marketing & Deployment</h3>
+                        <p class="text-slate-500 mono text-xs mt-1">Performance & Conversion Optimization</p>
+                    </div>
+                    <p class="text-xs leading-relaxed max-w-2xl">
+                        Designed and delivered 15+ high-converting landing pages. Managed maintenance for multiple company websites, focusing on reducing TTI (Time to Interactive) and optimizing SEO rankings through layout improvements.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="max-w-6xl mx-auto px-6 mb-40">
+            <h2 class="text-2xl font-black text-white mb-10 uppercase tracking-widest border-b border-white/5 pb-4">Key_Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="glass-panel p-10 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 p-4 text-white/5 font-black text-4xl">01</div>
+                    <h3 class="text-xl font-bold text-white mb-2 uppercase">Personal Task System</h3>
+                    <p class="text-xs text-slate-400 mb-6">Fully responsive productivity tool using Angular. Features drag-and-drop task organization and a dynamic dashboard for progress visualization.</p>
+                    <div class="flex gap-4 mono text-[10px] uppercase">
+                        <span class="text-indigo-400">#Angular</span>
+                        <span class="text-indigo-400">#TypeScript</span>
+                        <span class="text-indigo-400">#API_Sync</span>
+                    </div>
+                </div>
+                <div class="glass-panel p-10 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 p-4 text-white/5 font-black text-4xl">02</div>
+                    <h3 class="text-xl font-bold text-white mb-2 uppercase">E-com Platform</h3>
+                    <p class="text-xs text-slate-400 mb-6">Freelance Shopify deployment. Customized Liquid templates to deliver a high-converting UI with advanced product filtering and SEO optimization.</p>
+                    <div class="flex gap-4 mono text-[10px] uppercase">
+                        <span class="text-cyan-400">#Shopify</span>
+                        <span class="text-cyan-400">#Liquid</span>
+                        <span class="text-cyan-400">#Conversion</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Query Section -->
+        <section class="max-w-6xl mx-auto px-6 mb-40">
+            <div class="glass-panel rounded-xl overflow-hidden border border-white/5">
+                <div class="bg-white/5 p-4 flex items-center justify-between border-b border-white/5">
+                    <div class="flex items-center gap-2">
+                        <div class="w-3 h-3 rounded-full bg-red-500/20 border border-red-500/50"></div>
+                        <span class="text-[10px] mono text-slate-500 font-bold uppercase tracking-widest">Neural_Query_Interface_v2</span>
+                    </div>
+                </div>
+                
+                <div id="chat-window" class="h-80 overflow-y-auto p-8 space-y-4 custom-scrollbar mono text-[12px]">
+                    <div class="text-slate-500">>> [SYS_MSG]: Connection secure. Query Shyam's profile...</div>
+                </div>
+
+                <div class="p-6 bg-black/20 flex items-center gap-4">
+                    <span class="text-indigo-500 mono font-bold">>></span>
+                    <input id="chat-input" type="text" placeholder="ASK_ABOUT_WORKLUGE_OR_TECH_STACK..." class="bg-transparent border-none outline-none text-white w-full mono text-xs uppercase placeholder:text-slate-700">
+                    <button onclick="handleQuery()" class="text-cyan-500 hover:text-white transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-20 border-t border-white/5 text-center">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-[10px] mono tracking-[0.5em] text-slate-600 uppercase mb-4">Transmission_End // 2026</div>
+            <p class="text-slate-500 text-xs">Architected by Shyam Sabu &copy; Built with Passion in Kochi</p>
+        </div>
+    </footer>
+
+    <script>
+        const apiKey = ""; 
+
+        async function handleQuery() {
+            const input = document.getElementById('chat-input');
+            const windowEl = document.getElementById('chat-window');
+            const val = input.value.trim();
+            if (!val) return;
+
+            input.value = '';
+            windowEl.innerHTML += `<div class="text-indigo-400">>> USER: ${val}</div>`;
+            
+            const loadEl = document.createElement('div');
+            loadEl.className = "text-slate-700 animate-pulse";
+            loadEl.innerText = ">> PROCESSING_QUERY...";
+            windowEl.appendChild(loadEl);
+            windowEl.scrollTop = windowEl.scrollHeight;
+
+            const systemPrompt = `You are the AI interface for Shyam Sabu's portfolio. 
+            CONTEXT: 4+ years exp at TechWyse. 
+            PROJECTS: WorkLuge (Angular UI lead, Gantt charts, real-time sync), AdLuge CRM (Lead management). 
+            TECH: JavaScript, TypeScript, Angular, Shopify (Liquid), Strapi, Tailwind. 
+            EDUCATION: B.Com (Pursuing), Diploma in Automobile Eng.
+            Tone: Professional, tech-noir, concise (under 30 words). Always speak in first person as Shyam's agent.`;
+
+            try {
+                const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+                const response = await fetch(url, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        contents: [{ parts: [{ text: val }] }],
+                        systemInstruction: { parts: [{ text: systemPrompt }] }
+                    })
+                });
+                const data = await response.json();
+                const resText = data.candidates?.[0]?.content?.parts?.[0]?.text || "LINK_ERROR: REBOOT_SYSTEM.";
+                
+                loadEl.remove();
+                windowEl.innerHTML += `<div class="text-white leading-relaxed tracking-wide">>> INTERFACE: ${resText.toUpperCase()}</div>`;
+            } catch (e) {
+                loadEl.innerText = ">> CRITICAL_ERROR: DATA_CORRUPTION.";
+            }
+            windowEl.scrollTop = windowEl.scrollHeight;
+        }
+
+        document.getElementById('chat-input').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') handleQuery();
+        });
+
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('bg-[#020617]/90', 'backdrop-blur-xl', 'border-white/5', 'py-4');
+                nav.classList.remove('py-6', 'border-transparent');
+            } else {
+                nav.classList.remove('bg-[#020617]/90', 'backdrop-blur-xl', 'border-white/5', 'py-4');
+                nav.classList.add('py-6', 'border-transparent');
+            }
+        });
+    </script>
+</body>
+</html>
